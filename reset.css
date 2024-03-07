@@ -1,0 +1,16 @@
+body{
+    margin: 0px 200px;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+a{  
+    text-decoration: none;
+    color: #959595;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+
+}
+

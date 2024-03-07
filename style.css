@@ -1,1 +1,28 @@
-/*# sourceMappingURL=style.css.map */
+header {
+  margin: 20px 30px;
+  display: flex;
+  justify-content: center;
+  color: #ddd;
+  justify-content: space-around;
+}
+header .navigation {
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+  align-items: center;
+}
+header .login {
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+  align-items: center;
+}
+
+main {
+  margin-top: 100px;
+}
+main .contents .primary .title_h1 {
+  font-weight: 700;
+  font-size: 58px;
+}
+main .contents .primary .paragraph_h1 {
+  color: #959595;
+}/*# sourceMappingURL=style.css.map */
