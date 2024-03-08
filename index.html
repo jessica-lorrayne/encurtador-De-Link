@@ -38,77 +38,98 @@
 
   <body>
     <header>
-        <nav aria-label="navigation" class="d-flex navigation">
-
-          <a href="#">Features</a>
-          <a href="#">Pricing</a>
-          <a href="#">Resources</a>
-
-        </nav>
-
-        <nav aria-label="login" class="d-flex login">
-
-          <a href="#">Login</a>
-          <a class="text-light btn btn-info rounded-pill" href="#">Sign Up</a>
-          
+      <nav aria-label="navigation" class="d-flex navigation">
+        <a href="#">Features</a>
+        <a href="#">Pricing</a>
+        <a href="#">Resources</a>
       </nav>
 
+      <nav aria-label="login" class="d-flex login">
+        <a href="#">Login</a>
+        <a class="text-light btn btn-info rounded-pill" href="#">Sign Up</a>
+      </nav>
     </header>
 
     <main>
       <div class="contents">
-        <section class="primary">
-          <h1 class="title_h1">More than just <br> shorter links</h1>
-          <p class="paragraph_h1">
-            Build your brand’s recognition and get detailed <br> insights on how your
-            links are performing.
-          </p>
-          <button class="text-light rounded-pill btn btn-info">Get Started</button>
+        <section class="hero_section">
+          <div class="content d-flex counter">
+            <h1 class="title_h1">
+              More than just <br />
+              shorter links
+            </h1>
+
+            <p class="lyrics">
+              Build your brand’s recognition and get detailed <br />
+              insights on how your links are performing.
+            </p>
+
+            <button class="get_start_btn text-light rounded-pill btn btn-info">
+              Get Started
+            </button>
+          </div>
+
+          <div class="d-flex illustration-working">
+            <img
+              src="images/illustration-working.svg"
+              alt="illustration-working"
+            />
+          </div>
         </section>
 
         <section class="coletor_Link">
-          <input type="text" placeholder="Shorten a link here..." />
-          <button class="text-light btn btn-info" type="submit">Shorten It!</button>
+
+          <div class="content shorten_link">
+
+            <input type="text" placeholder="Shorten a link here..." />
+            <button class="text-light btn btn-info" type="submit">
+              Shorten It!
+            </button>
+          </div>
         </section>
       </div>
 
       <div class="statistics">
-        <section>
-          <h2>Advanced Statistics</h2>
+        <div class="content">
+        <section class="title_advanced">
+          <h2 class="weight">Advanced Statistics</h2>
           <p>
-            Track how your links are performing across the web with our advanced
+            Track how your links are performing across the web with <br> our advanced
             statistics dashboard.
           </p>
         </section>
 
-        <section>
-          <h3>Brand Recognition</h3>
-          <p>
+        <section class="box brand">
+          <h3 class="weight">Brand Recognition</h3>
+          <p class="lyrics">
             Boost your brand recognition with each click. Generic links don’t
             mean a thing. Branded links help instill confidence in your content.
           </p>
         </section>
 
-        <section>
-          <h3>Detailed Records</h3>
-          <p>
+        <section class="box">
+          <h3 class="weight">Detailed Records</h3>
+          <p class="lyrics">
             Gain insights into who is clicking your links. Knowing when and
             where people engage with your content helps inform better decisions.
           </p>
         </section>
 
-        <section>
-          <h3>Fully Customizable</h3>
-          <p>
+        <section class="box">
+          <h3 class="weight">Fully Customizable</h3>
+          <p class="lyrics">
             Improve brand awareness and content discoverability through
             customizable links, supercharging audience engagement.
           </p>
         </section>
       </div>
+      </div>
 
-      <section class="sub_footer">
+      <section class="cta">
         <h2>Boost your links today</h2>
-        <button class="rounded-pill text-light btn btn-info" >Get Started</button>
+        <button class="rounded-pill text-light btn btn-info">
+          Get Started
+        </button>
       </section>
     </main>
 
