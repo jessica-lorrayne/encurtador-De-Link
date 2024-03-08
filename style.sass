@@ -1,5 +1,14 @@
-header
+.contents
+    max-width: 1200px
+    margin: 0 auto
+    padding: 0 2rem
 
+.weight
+    font-weight: 700
+
+.lyrics
+    color: #959595
+header
     margin: 20px 30px
     display: flex
     justify-content: center
@@ -16,18 +25,80 @@ header
 
 main
     margin-top: 100px
+.contents
+    .hero_section
+        display: flex
+        align-items: center 
 
-    .contents
-
-        .primary
+        .counter
+            flex-direction: column
+            padding: 0 4% 
 
             .title_h1
                 font-weight: 700
                 font-size: 58px
 
-            .paragraph_h1
-                color: #959595
-                
-// .statistics
-//     height: 200px
-//     background-color: #e9eff2
+            .get_start_btn
+                width: 150px
+            
+        .illustration-working
+            height: 350px
+            padding: 0 4%
+            
+.coletor_Link
+    margin-top: 60px
+
+    .shorten_link
+        display: flex
+        align-items: center
+        justify-content: center
+        gap: 1rem
+        z-index: 2
+        padding: 2.2rem 1.8rem
+        border-radius: 10px
+        background-color: hsl(257, 27%, 26%)
+        background-repeat: no-repeat
+        background-image: url("images/bg-shorten-desktop.svg")
+        background-position: center
+
+        input
+            flex: 1
+            border-radius: 5px
+            padding: 10px 5px
+            border: none
+
+        button
+            padding: 10px 18px
+
+.statistics
+    background-color: #f0f0f0
+    width: 100vw
+    position: absolute
+    left: 0
+    display: flex
+    align-items: center
+    flex-direction: column
+
+    .title_advanced
+        text-align: center
+        padding: 0px 2rem
+        margin: 100px 0px
+
+
+    .box
+        background-color: #fff
+        padding: 30px 15px 5px
+        width: 300px
+        
+        h3
+            font-size: 20px
+
+        p
+            font-size: 14px
+
+    .brand
+        background-color: hsl(257, 27%, 26%)
+        background-repeat: no-repeat
+        background-image: url("images/icon-brand-recognition.svg")
+
+
