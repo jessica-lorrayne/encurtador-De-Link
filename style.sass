@@ -36,10 +36,12 @@ main
 
             .title_h1
                 font-weight: 700
-                font-size: 58px
+                font-size: 55px
 
             .get_start_btn
-                width: 150px
+                margin-top: 16px
+                width: 200px
+                height: 50px
             
         .illustration-working
             height: 350px
@@ -52,6 +54,8 @@ main
         display: flex
         align-items: center
         justify-content: center
+        position: relative
+        margin-bottom: -50px
         gap: 1rem
         z-index: 2
         padding: 2.2rem 1.8rem
@@ -78,27 +82,61 @@ main
     display: flex
     align-items: center
     flex-direction: column
-
+    
     .title_advanced
         text-align: center
         padding: 0px 2rem
         margin: 100px 0px
 
+.box_center
+    display: flex
+    flex-direction: row
+    gap: 40px
+    
+    .icon_brand,
+    .icon_detailed,
+    .icon_fully
+        background-color: hsl(257, 27%, 26%)
+        height: 80px
+        width: 80px
+        border-radius: 100%
+        background-repeat: no-repeat
+        position: relative
+        background-position: center
+
+        &::before
+            content: ""
+            display: block
+            height: 100%
+            width: 100%
+            position: relative
+            top: 0
+            left: 0
+            background-position: center
+            background-repeat: no-repeat
+            background-image: url("images/icon-brand-recognition.svg")
+
+        &.icon_detailed::before
+            background-image: url("images/icon-detailed-records.svg")
+
+        &.icon_fully::before
+            background-image: url("images/icon-fully-customizable.svg")
 
     .box
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        justify-content: center
         background-color: #fff
-        padding: 30px 15px 5px
+        padding: 70px 20px 5px 20px
         width: 300px
-        
+        border-radius: 10px
+
         h3
             font-size: 20px
 
         p
-            font-size: 14px
+             font-size: 14px
 
-    .brand
-        background-color: hsl(257, 27%, 26%)
-        background-repeat: no-repeat
-        background-image: url("images/icon-brand-recognition.svg")
 
 
