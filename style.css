@@ -17,7 +17,6 @@ header {
   display: flex;
   justify-content: center;
   color: #ddd;
-  justify-content: space-around;
 }
 header .navigation {
   -moz-column-gap: 16px;
@@ -128,6 +127,10 @@ main {
   left: 0;
   background-position: center;
   background-repeat: no-repeat;
+}
+.box_center .icon_brand.icon_brand::before,
+.box_center .icon_detailed.icon_brand::before,
+.box_center .icon_fully.icon_brand::before {
   background-image: url("images/icon-brand-recognition.svg");
 }
 .box_center .icon_brand.icon_detailed::before,
@@ -164,6 +167,7 @@ main {
   text-align: center;
   justify-content: center;
   flex-direction: column;
+  margin-top: 670px;
   padding: 5rem;
   row-gap: 10px;
   color: #fff;
@@ -175,6 +179,20 @@ main {
 
 footer {
   background-color: hsl(255, 11%, 22%);
-  margin-top: 500px;
+  height: 40vh;
   position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+footer section {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+footer section h2 {
+  color: #fff;
+}
+footer section li {
+  list-style: none;
+  color: #f0f0f0;
 }/*# sourceMappingURL=style.css.map */

@@ -8,12 +8,12 @@
 
 .lyrics
     color: #959595
+
 header
     margin: 20px 30px
     display: flex
     justify-content: center
     color: #ddd
-    justify-content: space-around
 
     .navigation
         column-gap: 16px
@@ -25,14 +25,15 @@ header
 
 main
     margin-top: 100px
+
 .contents
     .hero_section
         display: flex
-        align-items: center 
+        align-items: center
 
         .counter
             flex-direction: column
-            padding: 0 4% 
+            padding: 0 4%
 
             .title_h1
                 font-weight: 700
@@ -42,11 +43,11 @@ main
                 margin-top: 16px
                 width: 200px
                 height: 50px
-            
+
         .illustration-working
             height: 350px
             padding: 0 4%
-            
+
 .coletor_Link
     margin-top: 60px
 
@@ -83,7 +84,7 @@ main
     display: flex
     align-items: center
     flex-direction: column
-    
+
     .title_advanced
         text-align: center
         padding: 0px 2rem
@@ -93,7 +94,7 @@ main
     display: flex
     flex-direction: row
     gap: 40px
-    
+
     .icon_brand,
     .icon_detailed,
     .icon_fully
@@ -115,6 +116,8 @@ main
             left: 0
             background-position: center
             background-repeat: no-repeat
+
+        &.icon_brand::before
             background-image: url("images/icon-brand-recognition.svg")
 
         &.icon_detailed::before
@@ -137,7 +140,8 @@ main
             font-size: 20px
 
         p
-             font-size: 14px
+            font-size: 14px
+
 .cta
     position: relative
     display: flex
@@ -145,17 +149,30 @@ main
     text-align: center
     justify-content: center
     flex-direction: column
+    margin-top: 670px
     padding: 5rem
     row-gap: 10px
     color: #fff
     background-color: hsl(257, 27%, 26%)
     background-repeat: no-repeat
     background-size: 100%
-    background-image: url("images/bg-boost-desktop.svg") 
+    background-image: url("images/bg-boost-desktop.svg")
 
 footer
     background-color: hsl(255, 11%, 22%)
-    margin-top: 500px
+    height: 40vh
     position: relative
-    
+    display: grid
+    grid-template-columns: repeat(4, 1fr)
+    section
+        display: flex
+        align-items: flex-end
+        flex-direction: column
+        h2
+            color: #fff
+        li
+            list-style: none
+            color: #f0f0f0
 
+
+    
